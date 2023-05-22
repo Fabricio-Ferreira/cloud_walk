@@ -23,9 +23,7 @@ Para esse projeto, utilizei arquitetura baseada no CLEAN DART, dividindo o proje
 
 <br>
 <div>
-<img src="https://user-images.githubusercontent.com/13634186/232528066-e3d146b5-b2a2-436e-bbcd-5f53e2c11309.png" width="300px" />
-<br>
-<img src="https://user-images.githubusercontent.com/13634186/232528176-4835a3ce-d917-44cd-82a1-05b41cb03d24.png" width="300px" />
+<img src=(https://github.com/Fabricio-Ferreira/cloud_walk/assets/13634186/51307fe8-51f7-4cab-a7c2-f856618c2894) width="300px" />
 </div>
 <br>
 
@@ -33,7 +31,7 @@ Para esse projeto, utilizei arquitetura baseada no CLEAN DART, dividindo o proje
 
 <br>
 <div>
-<img src="https://user-images.githubusercontent.com/13634186/232529279-dba93686-455d-4042-9e21-372746899acb.png" width="300px" />
+<img src="https://github.com/Fabricio-Ferreira/cloud_walk/assets/13634186/4e0a76fc-ae32-47ca-bbe9-77e0a60e7763" width="300px"/>
 </div>
 <br>
 
@@ -41,7 +39,7 @@ Para esse projeto, utilizei arquitetura baseada no CLEAN DART, dividindo o proje
 
 <br>
 <div>
-<img src="images/app.gif">
+<img src="[images/app.gif](https://github.com/Fabricio-Ferreira/cloud_walk/assets/13634186/ddba754c-25b1-47ae-ac23-09bbb14bcbce)">
 <br>
 
 # Autor
