@@ -1,0 +1,7 @@
+T? tryCast<T>(dynamic x) {
+  if (x == null) return null;
+  if (x is T) {
+    return x;
+  }
+  return null;
+}
