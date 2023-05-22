@@ -1,6 +1,6 @@
-<h1 align="center"> Cloud Walk - APoD </h1>
+<h1 align="left"> Cloud Walk - APoD </h1>
 
-![logodasquadpremium](https://user-images.githubusercontent.com/13634186/232494109-b952c616-4bfc-4253-9b24-f98c60b757b9.png)
+![logo_cloud_walk](https://github.com/Fabricio-Ferreira/cloud_walk/assets/13634186/228b49e0-e5ac-4b06-9b8d-f369ee810441) 
 
 <h2> Descrição do projeto </h2>
 O app é um buscador sobre APoD - "Astronomy Picture of the Day", que traz as mais recentes e atualizadas imagens da NASA
@@ -23,7 +23,9 @@ Para esse projeto, utilizei arquitetura baseada no CLEAN DART, dividindo o proje
 
 <br>
 <div>
-<img src=(https://github.com/Fabricio-Ferreira/cloud_walk/assets/13634186/51307fe8-51f7-4cab-a7c2-f856618c2894) width="300px" />
+
+https://github.com/Fabricio-Ferreira/cloud_walk/assets/13634186/52eca36f-a0f0-4a37-9e39-5f58f86a9364
+
 </div>
 <br>
 
@@ -31,7 +33,9 @@ Para esse projeto, utilizei arquitetura baseada no CLEAN DART, dividindo o proje
 
 <br>
 <div>
-<img src="https://github.com/Fabricio-Ferreira/cloud_walk/assets/13634186/4e0a76fc-ae32-47ca-bbe9-77e0a60e7763" width="300px"/>
+
+https://github.com/Fabricio-Ferreira/cloud_walk/assets/13634186/4d824a50-8e1c-48d0-a21e-64778af9f7d1
+ 
 </div>
 <br>
 
@@ -39,7 +43,9 @@ Para esse projeto, utilizei arquitetura baseada no CLEAN DART, dividindo o proje
 
 <br>
 <div>
-<img src="[images/app.gif](https://github.com/Fabricio-Ferreira/cloud_walk/assets/13634186/ddba754c-25b1-47ae-ac23-09bbb14bcbce)">
+
+https://github.com/Fabricio-Ferreira/cloud_walk/assets/13634186/02060118-4793-43f3-8333-ea5435c3c9c0
+
 <br>
 
 # Autor
