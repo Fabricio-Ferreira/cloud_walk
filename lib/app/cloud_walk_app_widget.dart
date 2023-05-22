@@ -51,7 +51,7 @@ class _CloudWalkAppWidgetState extends State<CloudWalkAppWidget> with WidgetsBin
         debugShowCheckedModeBanner: false,
         theme: _themeDataLight,
         darkTheme: _themeDataDark,
-        initialRoute: AppRoutes.home.path,
+        initialRoute: AppRoutes.initial.path,
         getPages: CloudWalkAppRoutes.routes,
         builder: (context, child) => Scaffold(
           backgroundColor: Colors.blueGrey.shade50,
