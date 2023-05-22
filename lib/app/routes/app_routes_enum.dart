@@ -1,5 +1,6 @@
 enum AppRoutes {
   home('/home'),
+  details('/apod-details'),
   initial('/');
 
   final String path;

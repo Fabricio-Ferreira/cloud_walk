@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
-abstract class BasicBloc<T> extends GetxController {
+abstract class AppGetXController<T> extends GetxController {
   //region variables
   final Connectivity connectivity = Connectivity();
   late StreamSubscription<ConnectivityResult> connectivitySubscription;

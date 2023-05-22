@@ -77,9 +77,14 @@ ThemeData getLightThemeData() => ThemeData(
         cursorColor: DibbsLightThemeColors.positiveText,
         selectionHandleColor: DibbsLightThemeColors.positiveText,
       ),
-      appBarTheme: const AppBarTheme(
+      appBarTheme: AppBarTheme(
           backgroundColor: DibbsLightThemeColors.pageBackground,
-          systemOverlayStyle: SystemUiOverlayStyle.light,
+          systemOverlayStyle: SystemUiOverlayStyle.light.copyWith(
+            statusBarColor: Colors.blue.shade900,
+            systemNavigationBarColor: Colors.blue.shade900,
+            systemNavigationBarDividerColor: Colors.blue.shade900,
+            statusBarIconBrightness: Brightness.light,
+          ),
           elevation: 0),
       pageTransitionsTheme: const PageTransitionsTheme(
         builders: {
@@ -137,8 +142,8 @@ ThemeData getDarkThemeData() => ThemeData(
       visualDensity: VisualDensity.adaptivePlatformDensity,
       brightness: Brightness.dark,
       primarySwatch: DibbsDarkThemeColors.primarySwatch,
-      splashColor: Colors.transparent,
-      highlightColor: Colors.transparent,
+      splashColor: Colors.blue.shade900,
+      highlightColor: Colors.blue.shade900,
       tabBarTheme: const TabBarTheme(
         labelStyle: TextStyle(
             fontSize: AppFontSize.primary,
@@ -175,10 +180,15 @@ ThemeData getDarkThemeData() => ThemeData(
         overlayColor: Colors.white.withOpacity(0.1),
         overlayShape: SliderComponentShape.noOverlay,
       ),
-      appBarTheme: const AppBarTheme(
+      appBarTheme: AppBarTheme(
         backgroundColor: DibbsDarkThemeColors.pageBackground,
         elevation: 0,
-        systemOverlayStyle: SystemUiOverlayStyle.dark,
+        systemOverlayStyle: SystemUiOverlayStyle.dark.copyWith(
+          statusBarColor: Colors.blue.shade900,
+          systemNavigationBarColor: Colors.blue.shade900,
+          systemNavigationBarDividerColor: Colors.blue.shade900,
+          statusBarIconBrightness: Brightness.light,
+        ),
       ),
       pageTransitionsTheme: const PageTransitionsTheme(
         builders: {

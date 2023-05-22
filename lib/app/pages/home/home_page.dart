@@ -87,5 +87,8 @@ class HomePage extends GetView<HomeController> {
         itemBuilder: (_, index) => _buildApod(data.listApods[index]),
       );
 
-  Widget _buildApod(ApodModel model) => CardListItemApodWidget(model: model);
+  Widget _buildApod(ApodModel model) => CardListItemApodWidget(
+        model: model,
+        onTap: () => controller.onTapModel(model),
+      );
 }

@@ -9,48 +9,53 @@ import 'package:flutter/material.dart';
 
 class CardListItemApodWidget extends StatelessWidget {
   final ApodModel model;
+  final VoidCallback? onTap;
 
   const CardListItemApodWidget({
     required this.model,
+    this.onTap,
     Key? key,
   }) : super(key: key);
 
   @override
-  Widget build(BuildContext context) => Container(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            AutoSizeText(
-              model.title,
-              style: AppTextStyle.headlineLarge(),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: AppSpacing.s12),
-              child: AutoSizeText(
-                model.date,
-                style: AppTextStyle.subHeadlineMedium(),
+  Widget build(BuildContext context) => InkWell(
+        onTap: onTap,
+        child: Container(
+          padding: const EdgeInsets.all(20),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              AutoSizeText(
+                model.title,
+                style: AppTextStyle.headlineLarge(),
               ),
-            ),
-            AspectRatio(
-              aspectRatio: 0.75 / 1,
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(10),
-                child: CachedNetworkImage(
-                  imageUrl: model.imageUrl,
-                  placeholder: (context, url) => const Center(
-                    child: CircularProgressIndicator(),
-                  ),
-                  errorWidget: (context, url, error) => Icon(
-                    Icons.error_outline,
-                    color: AppColorScheme.negativeText,
-                  ),
-                  fit: BoxFit.fitHeight,
-                  filterQuality: FilterQuality.high,
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: AppSpacing.s12),
+                child: AutoSizeText(
+                  model.date,
+                  style: AppTextStyle.subHeadlineMedium(),
                 ),
               ),
-            ),
-          ],
+              AspectRatio(
+                aspectRatio: 0.75 / 1,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(10),
+                  child: CachedNetworkImage(
+                    imageUrl: model.imageUrl,
+                    placeholder: (context, url) => const Center(
+                      child: CircularProgressIndicator(),
+                    ),
+                    errorWidget: (context, url, error) => Icon(
+                      Icons.error_outline,
+                      color: AppColorScheme.negativeText,
+                    ),
+                    fit: BoxFit.fitHeight,
+                    filterQuality: FilterQuality.high,
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       );
 
@@ -58,5 +63,6 @@ class CardListItemApodWidget extends StatelessWidget {
   void debugFillProperties(DiagnosticPropertiesBuilder properties) {
     super.debugFillProperties(properties);
     properties.add(DiagnosticsProperty<ApodModel>('model', model));
+    properties.add(ObjectFlagProperty<VoidCallback?>.has('onTap', onTap));
   }
 }

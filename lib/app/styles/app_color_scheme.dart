@@ -132,8 +132,8 @@ class AppColorScheme {
 }
 
 class DibbsDarkThemeColors {
-  static final MaterialColor primarySwatch = StyleUtils.createMaterialColor(positiveText);
-  static final MaterialColor accentColor = StyleUtils.createMaterialColor(positiveText);
+  static final MaterialColor primarySwatch = StyleUtils.createMaterialColor(Colors.blue.shade900);
+  static final MaterialColor accentColor = StyleUtils.createMaterialColor(Colors.blue.shade900);
 
   static const pageBackground = Color(0xFF000000);
   static const primaryBackground = Color(0xFF1E1E1E);
@@ -160,8 +160,8 @@ class DibbsDarkThemeColors {
 }
 
 class DibbsLightThemeColors {
-  static final MaterialColor primarySwatch = StyleUtils.createMaterialColor(positiveText);
-  static final MaterialColor accentColor = StyleUtils.createMaterialColor(positiveText);
+  static final MaterialColor primarySwatch = StyleUtils.createMaterialColor(Colors.blue.shade900);
+  static final MaterialColor accentColor = StyleUtils.createMaterialColor(Colors.blue.shade900);
 
   static const pageBackground = Color(0xFFF9F9F9);
   static const primaryBackground = Color(0xFFFFFFFF);

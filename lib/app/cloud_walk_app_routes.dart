@@ -1,3 +1,5 @@
+import 'package:cloud_walk_test/app/pages/apod_details/apod_details_bindings.dart';
+import 'package:cloud_walk_test/app/pages/apod_details/apod_details_page.dart';
 import 'package:cloud_walk_test/app/pages/home/home_bindings.dart';
 import 'package:cloud_walk_test/app/pages/home/home_page.dart';
 import 'package:cloud_walk_test/app/pages/splash/splash_bindings.dart';
@@ -18,6 +20,13 @@ mixin CloudWalkAppRoutes {
       page: SplashPage.new,
       bindings: [
         SplashBindings(),
+      ],
+    ),
+    GetPage(
+      name: '/apod-details',
+      page: ApodDetailsPage.new,
+      bindings: [
+        ApodDetailsBindings(),
       ],
     ),
   ];
