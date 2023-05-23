@@ -24,6 +24,11 @@ dependencies:
   cached_network_image: ^3.2.3
   mask_text_input_formatter:
 
+  #region Unit tests
+  mocktail: ^0.3.0
+  faker: ^2.1.0
+  #endregion
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
